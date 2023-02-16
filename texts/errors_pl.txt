@@ -1,0 +1,5 @@
+błąd: nie masz wystarczająco pieniędzy
+błąd: nie ma już więcej przeszkód
+błąd: nie masz wystarczającej ilości przedmiotów
+błąd: nie ma miejsca
+błąd: najpierw musisz zbudować 

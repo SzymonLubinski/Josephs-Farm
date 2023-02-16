@@ -1,0 +1,5 @@
+error: you don't have enough money
+error: there are no more obstacles
+error: you don't have enough items
+error: there is no space
+error: first you need to build a 
