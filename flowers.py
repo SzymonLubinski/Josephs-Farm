@@ -36,9 +36,6 @@ class BlackRose(Flowers):
         self.speed_growing = random.randint(0.6 * SPEED_GAME, 0.7 * SPEED_GAME)
         self.plants_ad = 'ad_black_rose'
 
-    def update(self):
-        Flowers.update(self)
-
 
 class Daisy(Flowers):
     def __init__(self, plant_type, x=None, y=None):
@@ -51,9 +48,6 @@ class Daisy(Flowers):
         self.crops = random.randint(10, 15)
         self.speed_growing = random.randint(0.2 * SPEED_GAME, 0.3 * SPEED_GAME)
         self.plants_ad = 'ad_daisy'
-
-    def update(self):
-        Flowers.update(self)
 
 
 class Lily(Flowers):
@@ -68,9 +62,6 @@ class Lily(Flowers):
         self.speed_growing = random.randint(0.3 * SPEED_GAME, 0.4 * SPEED_GAME)
         self.plants_ad = 'ad_lily'
 
-    def update(self):
-        Flowers.update(self)
-
 
 class RedRose(Flowers):
     def __init__(self, plant_type, x=None, y=None):
@@ -83,9 +74,6 @@ class RedRose(Flowers):
         self.crops = random.randint(1, 2)
         self.speed_growing = random.randint(0.7 * SPEED_GAME, 0.8 * SPEED_GAME)
         self.plants_ad = 'ad_red_rose'
-
-    def update(self):
-        Flowers.update(self)
 
 
 class Tulip(Flowers):
@@ -100,9 +88,6 @@ class Tulip(Flowers):
         self.speed_growing = random.randint(0.3 * SPEED_GAME, 0.4 * SPEED_GAME)
         self.plants_ad = 'ad_tulip'
 
-    def update(self):
-        Flowers.update(self)
-
 
 class Geraniums(Flowers):
     def __init__(self, plant_type, x=None, y=None):
@@ -115,6 +100,3 @@ class Geraniums(Flowers):
         self.crops = random.randint(1, 9)
         self.speed_growing = random.randint(0.2 * SPEED_GAME, 0.4 * SPEED_GAME)
         self.plants_ad = 'ad_geraniums'
-
-    def update(self):
-        Flowers.update(self)
