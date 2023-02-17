@@ -32,9 +32,6 @@ class VerticalCrib(Feeders):
         self.full_image = 'farm_vertical_crib_full'
         self.empty_image = 'farm_vertical_crib_empty'
 
-    def update(self):
-        Feeders.update(self)
-
 
 class HorizontalCrib(Feeders):
     def __init__(self, building_type, x=None, y=None):
@@ -44,9 +41,6 @@ class HorizontalCrib(Feeders):
         self.time_end = None
         self.full_image = 'farm_horizontal_crib_full'
         self.empty_image = 'farm_horizontal_crib_empty'
-
-    def update(self):
-        Feeders.update(self)
 
 
 class HenNest(Feeders):
@@ -83,8 +77,5 @@ class Pasturge(Feeders):
         self.time_end = None
         self.full_image = 'farm_pasturge_full'
         self.empty_image = 'farm_pasturge_empty'
-
-    def update(self):
-        Feeders.update(self)
 
 
