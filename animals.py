@@ -134,9 +134,6 @@ class ChickenBaby(Animal):
         self.adult = 'chicken'
         self.adult_animal = Chicken
 
-    def update(self):
-        Animal.update(self)
-
 
 class Cow(Animal):
     def __init__(self, animal_type, x=None, y=None):
@@ -163,9 +160,6 @@ class CowBaby(Animal):
         self.grow_up = 0
         self.adult = 'cow'
         self.adult_animal = Cow
-
-    def update(self):
-        Animal.update(self)
 
 
 class Goat(Animal):
@@ -195,9 +189,6 @@ class GoatBaby(Animal):
         self.adult = 'goat'
         self.adult_animal = Goat
 
-    def update(self):
-        Animal.update(self)
-
 
 class Pig(Animal):
     def __init__(self, animal_type, x=None, y=None):
@@ -207,9 +198,6 @@ class Pig(Animal):
         self.new_object.images = get_sprites(1, 'pig_idle')
         self.meat = 5
         self.reproduction_speed = 4000 * SPEED_GAME
-
-    def update(self):
-        Animal.update(self)
 
 
 class PigBaby(Animal):
@@ -221,9 +209,6 @@ class PigBaby(Animal):
         self.adult = 'pig'
         self.adult_animal = Pig
 
-    def update(self):
-        Animal.update(self)
-
 
 class Bunny(Animal):
     def __init__(self, animal_type, x=None, y=None):
@@ -234,9 +219,6 @@ class Bunny(Animal):
         self.meat = 1
         self.reproduction_speed = 2600 * SPEED_GAME
 
-    def update(self):
-        Animal.update(self)
-
 
 class BunnyBaby(Animal):
     def __init__(self, animal_type, x=None, y=None):
@@ -246,9 +228,6 @@ class BunnyBaby(Animal):
         self.grow_up = 0
         self.adult = 'bunny'
         self.adult_animal = Bunny
-
-    def update(self):
-        Animal.update(self)
 
 
 class Sheep(Animal):
@@ -275,9 +254,6 @@ class SheepBaby(Animal):
         self.grow_up = 0
         self.adult = 'sheep'
         self.adult_animal = Sheep
-
-    def update(self):
-        Animal.update(self)
 
 
 class Turkey(Animal):
