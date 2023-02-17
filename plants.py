@@ -36,9 +36,6 @@ class Pumpkin(Plants):
         self.speed_growing = random.randint(0.6 * SPEED_GAME, 0.9 * SPEED_GAME)
         self.plants_ad = 'ad_pumpkin'
 
-    def update(self):
-        Plants.update(self)
-
 
 class Carrot(Plants):
     def __init__(self, plant_type, x=None, y=None):
@@ -51,9 +48,6 @@ class Carrot(Plants):
         self.crops = random.randint(2, 6)
         self.speed_growing = random.randint(0.2 * SPEED_GAME, 0.5 * SPEED_GAME)
         self.plants_ad = 'ad_carrot'
-
-    def update(self):
-        Plants.update(self)
 
 
 class Strawberry(Plants):
@@ -68,9 +62,6 @@ class Strawberry(Plants):
         self.speed_growing = random.randint(0.15 * SPEED_GAME, 0.3 * SPEED_GAME)
         self.plants_ad = 'ad_strawberry'
 
-    def update(self):
-        Plants.update(self)
-
 
 class Tomato(Plants):
     def __init__(self, plant_type, x=None, y=None):
@@ -83,9 +74,6 @@ class Tomato(Plants):
         self.crops = random.randint(3, 4)
         self.speed_growing = random.randint(0.3 * SPEED_GAME, 0.5 * SPEED_GAME)
         self.plants_ad = 'ad_tomato'
-
-    def update(self):
-        Plants.update(self)
 
 
 class Corn(Plants):
@@ -100,9 +88,6 @@ class Corn(Plants):
         self.speed_growing = random.randint(0.6 * SPEED_GAME, 0.8 * SPEED_GAME)
         self.plants_ad = 'ad_corn'
 
-    def update(self):
-        Plants.update(self)
-
 
 class Watermelon(Plants):
     def __init__(self, plant_type, x=None, y=None):
@@ -115,6 +100,3 @@ class Watermelon(Plants):
         self.crops = random.randint(1, 3)
         self.speed_growing = random.randint(0.4 * SPEED_GAME, 0.6 * SPEED_GAME)
         self.plants_ad = 'ad_watermelon'
-
-    def update(self):
-        Plants.update(self)
